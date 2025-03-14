@@ -45,7 +45,7 @@ const availableLocales = computed(() => {
     }
     return locales.value.map(i => ({
         ...i,
-        name: (i.code === "en" ? "English" : (i.code === "es" ? "Español" : (i.code === "pt" ? "Português" : (i.code === "fr" ? "Français" : (i.code === "it" ? "Italiano" : (i.code === "de" ? "Deutsch" : (i.code === "ru" ? "Русский" : (i.code === "ja" ? "日本語" : (i.code === "zh" ? "中文" : "Unknown"))))))))),
+        name: (i.code === "en" ? "English" : (i.code === "es" ? "Español" : (i.code === "pt" ? "Português" : (i.code === "fr" ? "Français" : (i.code === "it" ? "Italiano" : (i.code === "de" ? "Deutsch" : (i.code === "ru" ? "Русский" : (i.code === "ja" ? "日本語" : (i.code === "zh" ? "中文" : (i.code === "id" ? "Bahasa Indonesia" : "Unknown")))))))))),
         active: i.code === locale.value
     }))
 })
@@ -130,7 +130,7 @@ const toggleDropdownLanguage = () => {
                     <div class="z-50 hidden my-4 text-base list-none bg-white dark:bg-spixi divide-y divide-gray-100 rounded-lg shadow" id="language-dropdown-menu">
                         <ul class="py-2 font-medium" role="none">
                             <li v-for="locale in availableLocales" :key="locale.code">
-                                <span 
+                                <div
                                     @click="setLocale(locale.code); toggleDropdownLanguage();"
                                     :class="{
                                         'bg-spixi text-white dark:bg-[#24BBFF]': locale.active,
@@ -144,13 +144,13 @@ const toggleDropdownLanguage = () => {
                                             width="20" />
                                         {{ locale.name }}
                                     </div>
-                                </span>
+                                </div>
                             </li>
                         </ul>
                     </div>
                     <div class="flex justify-center items-center mx-1 md:mx-6 text-sm rounded-lg">
                       <NuxtLink to='/download'>
-                         <span class="rounded bg-[#6BFCC8] text-xs md:text-base text-spixi font-medium px-1 md:px-4 py-2 text-center hover:opacity-90">
+                         <span class="rounded bg-[#6BFCC8] text-xs max-[400px]:text-[8px] md:text-base text-spixi font-medium px-1 md:px-4 py-2 text-center hover:opacity-90">
                             {{ t('menu.newversion', { version: spixiVersion }) }}
                         </span>
                       </NuxtLink>

@@ -95,7 +95,7 @@
             },
             "hiw2": {
                 "title": "Alamat Spixi adalah satu-satunya Pengidentifikasi Anda.",
-                "content": "Tidak ada nomor telepon, email, atau informasi pribadi lainnya. Spixi menggunakan alamat Anda untuk terhubung dengan orang lain dan memungkinkan Anda dapat mengirim atau menerima pembayaran. <p class='h2'>&nbsp;</p> <span class='font-semibold'>Catatan: Hapus kontak dengan mengetuk avatar mereka di chat. Anda akan melihat detail mereka dan menemukan tombol "Hapus Kontak".</span>"
+                "content": "Tidak ada nomor telepon, email, atau informasi pribadi lainnya. Spixi menggunakan alamat Anda untuk terhubung dengan orang lain dan memungkinkan Anda dapat mengirim atau menerima pembayaran. <p class='h2'>&nbsp;</p> <span class='font-semibold'>Catatan: Hapus kontak dengan mengetuk avatar mereka di chat. Anda akan melihat detail mereka dan menemukan tombol “Hapus Kontak”.</span>"
             },
             "hiw3": {
                 "title": "Menambahkan Kontak",
@@ -103,7 +103,7 @@
             },
             "hiw4": {
                 "title": "Mengirim dan Menerima <br> Pembayaran $IXI",
-                "content": "Anda dapat mengirim $IXI dengan menggunakan tombol "Pindai" di layar Dompet. Lanjutkan dengan kode QR yang berisi alamat Dompet Spixi lainnya. Atau, Anda dapat mengirim pembayaran $IXI dengan mengetuk tombol "Kirim". <p class='h2'>&nbsp;</p> Periksa FAQ untuk informasi lebih lanjut."
+                "content": "Anda dapat mengirim $IXI dengan menggunakan tombol “Pindai”, di layar Dompet. Lanjutkan dengan kode QR yang berisi alamat Dompet Spixi lainnya. Atau, Anda dapat mengirim pembayaran $IXI dengan mengetuk tombol “Kirim”,. <p class='h2'>&nbsp;</p> Periksa FAQ untuk informasi lebih lanjut."
             },
             "faq": {
                 "title": "Pertanyaan Umum",

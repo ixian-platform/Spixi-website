@@ -2,6 +2,7 @@
 
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   modules: [
     "@nuxtjs/i18n",
     "@nuxtjs/color-mode",
@@ -10,6 +11,7 @@ export default defineNuxtConfig({
     "@nuxtjs/device",
     "nuxt-icon",
   ],
+
   i18n: {
     locales: [
       {
@@ -62,6 +64,7 @@ export default defineNuxtConfig({
       escapeHtml: false,
     },
   },
+
   app: {
     pageTransition: { name: 'page', mode: 'out-in' },
     head: {
@@ -70,25 +73,32 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1',
     },
   },
+
   colorMode: {
     classSuffix: '',
     storageKey: 'color-theme',
     preference: 'system',
     fallback: 'light',
   },
+
   googleFonts: {
     families: {
       'Lexend': true,
     }
   },
+
   css: ['~/assets/css/main.css'],
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
   plugins: [
     { src: '~/plugins/utils.client.js', ssr: false },
   ],
+
+  compatibilityDate: '2025-03-14',
 })
