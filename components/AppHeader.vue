@@ -36,6 +36,9 @@ const availableLocales = computed(() => {
         case "zh":
             lang = "中文";
             break;
+        case "id":
+            lang = "Bahasa Indonesia";
+            break;
         default:
             lang = "Unknown";
             break;

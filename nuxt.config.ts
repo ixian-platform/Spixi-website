@@ -48,6 +48,10 @@ export default defineNuxtConfig({
         code: 'zh',
         file: 'zh.json'
       },
+      {
+        code: 'id',
+        file: 'id.json'
+      },
     ], 
     lazy: true,
     langDir: 'lang',
